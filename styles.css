@@ -160,7 +160,7 @@ hr {
 
 @media (max-width: 767px) {
     .card {
-        max-width: 50%; 
+        max-width: 70%; 
         margin: 5px auto; 
         text-align: center;
     }
