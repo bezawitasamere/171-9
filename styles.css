@@ -1,0 +1,231 @@
+
+.navbar-brand {
+    font-weight: bold; 
+    color: #5e311b !important;
+    position: absolute; 
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+@media (max-width: 991px) {
+    .navbar-brand,
+    .shopping-cart {
+        position: static;
+        transform: none;
+        right: auto;
+        top: auto;
+    }
+}
+
+.shopping-cart .fas.fa-shopping-cart {
+    color: #5e311b !important;/
+}
+
+.fas.fa-shopping-cart:hover {
+    color: #a86e51 !important;
+}
+
+.shipping-banner {
+    background-color: #dadada; 
+    color: rgb(120, 82, 6); 
+    padding: 2px 0; 
+    font-size: 16px;
+}
+
+.hero-section {
+    background-image: url('images/hero.webp');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: rgb(245, 243, 243); 
+    padding: 100px 20px;
+  }
+  
+  
+  .hero-section h1 {
+    margin-bottom: 30px; 
+    font-size: 2.5rem;
+  }
+  
+  .search-bar-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .search-input {
+    width: 60%;
+    max-width: 500px; 
+    font-size: 1.25rem; 
+  }
+  
+  .search-button {
+    font-size: 1.25rem; 
+  }
+  
+  .btn-link {
+    color: black;
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background-color: #5e311b;
+     border-color: #5e311b !important;
+}
+
+.btn-primary:hover {
+    background-color: #a86e51;
+     border-color: #5e311b !important;
+}
+
+h2 {
+    color: #5e311b;
+    border-color: #5e311b;
+    font-size: 2rem;
+}
+
+hr {
+    background-color: #343a40; 
+    border: none; 
+    height: 2px; 
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%; 
+    margin: 0 auto;
+}
+
+.card-img-top {
+    width: 100%; 
+    height: auto;
+    object-fit: cover; 
+    aspect-ratio: 16 / 25;
+}
+
+
+  
+.category-item {
+    padding: 20px; 
+    margin-bottom: 15px; 
+}
+
+.category-btn {
+    background-color: transparent; 
+    border: none;
+    color: #fff;
+    padding: 20px;
+    font-size: 2rem; 
+    text-align: center; 
+    vertical-align: middle;
+    cursor: pointer; 
+}
+
+.category-btn:hover {
+    color: #f8e2c5;
+}
+
+@media (max-width: 1000px) {
+    .card {
+        max-width: 100%; 
+        margin: 10px 0; 
+    }
+
+    .card-img-top {
+        aspect-ratio: 3 / 4; 
+    }
+
+    .card-body {
+        padding: 10px; 
+    }
+
+    .card-title, .card-text, .btn {
+        font-size: 0.8rem; 
+    }
+
+    .category-btn {
+        font-size: 1.5rem; 
+    }
+
+    .search-input, .search-button {
+        font-size: 1rem; 
+    }
+
+    h2.section-title {
+        font-size: 1.5rem; 
+    }
+}
+
+@media (max-width: 767px) {
+    .card {
+        max-width: 50%; 
+        margin: 5px auto; 
+        text-align: center;
+    }
+
+    .card-img-top {
+        width: 80%; 
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .card-body {
+        padding: 8px;
+    }
+}
+
+
+
+
+.horror {
+    background-image: url('images/horror.jpg');
+}
+
+.romance {
+    background-image: url('images/romance.webp');
+}
+
+.thriller {
+    background-image: url('images/thriller.webp');
+}
+
+.scifi {
+    background-image: url('images/sci-fi.webp');
+}
+
+.action {
+    background-image: url('images/action.webp');
+}
+
+.nonfiction {
+    background-image: url('images/non-fiction.webp');
+}
+
+footer {
+    background-color: #343a40; 
+    color: white; 
+}
+
+footer a.text-white {
+    color: white; 
+    text-decoration: none; 
+}
+
+footer a.text-white:hover {
+    text-decoration: underline; 
+}
+
+footer h5 {
+    margin-top: 0;
+    color:#5e311b ;
+}
+
+footer .form-control {
+    background-color: #6c757d; 
+    border: none;
+}
+
+  

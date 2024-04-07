@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heirloom Bookstore</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+<body>
+ <!-- Nav Section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <a class="navbar-brand mx-lg-auto" href="#">Heirloom</a>
+    <div class="shopping-cart">
+    <a class="nav-link position-absolute position-lg-static ml-lg-auto" href="#" style="right: 0; top: 0; height: 100%; display: flex; align-items: center;">
+      <i class="fas fa-shopping-cart"></i>
+    </a>
+  </div>
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#categories-section">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer-section">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#footer-section">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Promotion Section -->
+  <div class="shipping-banner text-center">
+    Free Shipping on Orders Over $30!
+</div>
+
+<div class="hero-section text-center">
+  <h1>Your next adventure awaits...</h1>
+  <form class="search-bar-form">
+    <input type="text" class="form-control search-input" placeholder="Search">
+    <button type="submit" class="btn btn-primary search-button">Search</button>
+  </form>
+</div>
+<!-- New Books -->
+<div class="container mt-5">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title">What's New</h2>
+        <hr>
+      </div>
+    </div>
+    
+    <!-- Visible books -->
+    <div class="row" id="initial-books">
+      <div class="col-sm-6 col-md-3">
+        <div class="card">
+            <img src="images/GOT.jpeg" class="card-img-top" alt="Game of Thrones">
+            <div class="card-body d-flex flex-column text-left">
+                <h5 class="card-title spaced">Game of Thrones</h5>
+                <a href="#" class="btn btn-link align-self-start mt-auto spaced">read more</a>
+                <p class="card-text spaced"><strong>$15.99</strong></p>
+                <a href="#" class="btn btn-primary mt-2 spaced">Add to Cart</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-3">
+        <div class="card">
+            <img src="images/dracula.jpeg" class="card-img-top" alt="Game of Thrones">
+            <div class="card-body d-flex flex-column text-left"> 
+                <h5 class="card-title spaced">Dracula</h5>
+                <a href="#" class="btn btn-link align-self-start mt-auto spaced">read more</a>
+                <p class="card-text spaced"><strong>$15.99</strong></p>
+                <a href="#" class="btn btn-primary mt-2 spaced">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+  
+    <div class="col-sm-6 col-md-3">
+      <div class="card">
+          <img src="images/ugly love.jpeg" class="card-img-top" alt="Game of Thrones">
+          <div class="card-body d-flex flex-column text-left"> 
+              <h5 class="card-title spaced">Ugly Love</h5>
+              <a href="#" class="btn btn-link align-self-start mt-auto spaced">read more</a>
+              <p class="card-text spaced"><strong>$15.99</strong></p>
+              <a href="#" class="btn btn-primary mt-2 spaced">Add to Cart</a>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+        <img src="images/verity.jpeg" class="card-img-top" alt="Game of Thrones">
+        <div class="card-body d-flex flex-column text-left">
+            <h5 class="card-title spaced">Verity</h5>
+            <a href="#" class="btn btn-link align-self-start mt-auto spaced">read more</a>
+            <p class="card-text spaced"><strong>$15.99</strong></p>
+            <a href="#" class="btn btn-primary mt-2 spaced">Add to Cart</a>
+        </div>
+    </div>
+  </div>
+        <!-- More book entries-->
+    </div>
+  </div>
+</div>
+
+<!-- Hidden books -->
+<div class="container mt-5" id="more-books" style="display: none;">
+    <div class="row">
+      <div class="col-sm-6 col-md-3">
+        <div class="card">
+            <img src="images/covenant.jpeg" class="card-img-top" alt="Game of Thrones">
+            <div class="card-body d-flex flex-column text-left">
+                <h5 class="card-title spaced">The Covenant of water</h5>
+                <a href="#" class="btn btn-link align-self-start mt-auto spaced">read more</a>
+                <p class="card-text spaced"><strong>$15.99</strong></p>
+                <a href="#" class="btn btn-primary mt-2 spaced">Add to Cart</a>
+            </div>
+        </div>
+      </div>
+    
+      <div class="col-sm-6 col-md-3">
+        <div class="card">
+            <img src="images/it.jpeg" class="card-img-top" alt="Game of Thrones">
+            <div class="card-body d-flex flex-column text-left"> 
+                <h5 class="card-title spaced">It</h5>
+                <a href="#" class="btn btn-link align-self-start mt-auto spaced">read more</a>
+                <p class="card-text spaced"><strong>$15.99</strong></p>
+                <a href="#" class="btn btn-primary mt-2 spaced">Add to Cart</a>
+            </div>
+        </div>
+      </div>
+   
+      <div class="col-sm-6 col-md-3">
+        <div class="card">
+            <img src="images/teacher.webp" class="card-img-top" alt="Game of Thrones">
+            <div class="card-body d-flex flex-column text-left"> 
+                <h5 class="card-title spaced">The Teacher</h5>
+                <a href="#" class="btn btn-link align-self-start mt-auto spaced">read more</a>
+                <p class="card-text spaced"><strong>$15.99</strong></p>
+                <a href="#" class="btn btn-primary mt-2 spaced">Add to Cart</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Arrow to show/hide books -->
+  <div class="text-center">
+    <button id="show-more" class="btn btn-link">
+        <i class="fas fa-chevron-down fa-2x"></i> 
+    </button>
+</div>
+
+  <!--Popular Section  -->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="section-title">Popular</h2>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6 col-md-3">
+          <div class="card">
+              <img src="images/long way.jpeg" class="card-img-top" alt="Game of Thrones">
+              <div class="card-body d-flex flex-column text-left">
+                  <h5 class="card-title spaced">The long way home</h5>
+                  <a href="#" class="btn btn-link align-self-start mt-auto spaced">read more</a>
+                  <p class="card-text spaced"><strong>$15.99</strong></p>
+                  <a href="#" class="btn btn-primary mt-2 spaced">Add to Cart</a>
+              </div>
+          </div>
+      </div>
+      
+  
+      <div class="col-sm-6 col-md-3">
+        <div class="card">
+            <img src="images/regretting you.jpeg" class="card-img-top" alt="Game of Thrones">
+            <div class="card-body d-flex flex-column text-left">
+                <h5 class="card-title spaced">Regretting you</h5>
+                <a href="#" class="btn btn-link align-self-start mt-auto spaced">read more</a>
+                <p class="card-text spaced"><strong>$15.99</strong></p>
+                <a href="#" class="btn btn-primary mt-2 spaced">Add to Cart</a>
+            </div>
+        </div>
+    </div>
+  
+    <div class="col-sm-6 col-md-3">
+      <div class="card">
+          <img src="images/The Housemaid.jpg" class="card-img-top" alt="Game of Thrones">
+          <div class="card-body d-flex flex-column text-left">
+              <h5 class="card-title spaced">The Housemaid</h5>
+              <a href="#" class="btn btn-link align-self-start mt-auto spaced">read more</a>
+              <p class="card-text spaced"><strong>$15.99</strong></p>
+              <a href="#" class="btn btn-primary mt-2 spaced">Add to Cart</a>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-sm-6 col-md-3">
+    <div class="card">
+        <img src="images/Never Lie.jpg" class="card-img-top" alt="Game of Thrones">
+        <div class="card-body d-flex flex-column text-left"> 
+            <h5 class="card-title spaced">Never Lie</h5>
+            <a href="#" class="btn btn-link align-self-start mt-auto spaced">read more</a>
+            <p class="card-text spaced"><strong>$15.99</strong></p>
+            <a href="#" class="btn btn-primary mt-2 spaced">Add to Cart</a>
+        </div>
+    </div>
+  </div>
+      <!-- More book entries-->
+  </div>
+  <!-- Categories Section -->
+  <div class="container mt-5" id="categories-section">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="section-title">Categories</h2>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+      
+        <div class="col-md-6">
+            <div class="category-item horror">
+                <button class="category-btn w-100">Horror</button>
+            </div>
+            <div class="category-item romance">
+                <button class="category-btn w-100">Romance</button>
+            </div>
+            <div class="category-item thriller">
+                <button class="category-btn w-100">Thriller</button>
+            </div>
+        </div>
+        
+    
+        <div class="col-md-6">
+            <div class="category-item scifi">
+                <button class="category-btn w-100">Sci-Fi</button>
+            </div>
+            <div class="category-item action">
+                <button class="category-btn w-100">Action</button>
+            </div>
+            <div class="category-item nonfiction">
+                <button class="category-btn w-100">Non-Fiction</button>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!-- Footer -->
+<footer class="pt-4 pb-4" style="background-color: white; color: black;">
+  <div class="container" id="footer-section">
+      <div class="row">
+          <div class="col-md-4">
+              <h5>Contact Us</h5>
+              <p><i class="fas fa-phone-alt"></i> +15104999020</p>
+              <p><i class="fas fa-envelope"></i> heirloom.us@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+              <h5>Help</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" style="color: black;">Shipping and Return</a></li>
+                  <li><a href="#" style="color: black;">FAQ</a></li>
+                  <li><a href="#" style="color: black;">About Us</a></li>
+              </ul>
+          </div>
+          <div class="col-md-4">
+              <h5>Subscribe to our newsletter</h5>
+              <form>
+                  <div class="form-group">
+                      <input type="email" class="form-control" placeholder="example@gmail.com">
+                  </div>
+                  <button type="submit" class="btn btn-primary">Subscribe</button>
+              </form>
+          </div>
+      </div>
+  </div>
+</footer>
+<script>
+document.getElementById('show-more').addEventListener('click', function() {
+  var moreBooks = document.getElementById('more-books');
+  if (moreBooks.style.display === 'none') {
+    moreBooks.style.display = 'block';
+    this.innerHTML = '<i class="fas fa-chevron-up fa-2x"></i>';
+  } else {
+    moreBooks.style.display = 'none';
+    this.innerHTML = '<i class="fas fa-chevron-down fa-2x"></i>'; 
+  }
+});
+</script>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
