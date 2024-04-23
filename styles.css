@@ -1,4 +1,4 @@
-  /* Primary Color and Font Palette */
+/* Primary Color and Font Palette */
 :root {
     /* Color */
     --primary-color: #5e311b;        
@@ -259,4 +259,3 @@ footer a.text-white {
 footer a.text-white:hover {
     text-decoration: underline;
 }
-
